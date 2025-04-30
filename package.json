@@ -6,22 +6,25 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.1",
     "@tanstack/react-table": "^8.13.2",
+    "hrnet-react-modal": "file:../modal-component",
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",
     "react-datepicker": "^6.2.0",
     "react-dom": "^18.3.1",
     "react-redux": "^9.1.0",
     "react-router-dom": "^6.22.3",
-    "react-select": "^5.8.0"
+    "react-select": "^5.8.0",
+    "styled-components": "^6.1.8"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.1",
+    "@types/node": "^22.15.3",
     "@types/react": "^18.3.5",
     "@types/react-datepicker": "^6.0.1",
     "@types/react-dom": "^18.3.0",
