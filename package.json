@@ -12,6 +12,7 @@
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.1",
     "@tanstack/react-table": "^8.13.2",
+    "hrnet-modal-react": "^0.1.0",
     "hrnet-react-modal": "file:../modal-component",
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",
