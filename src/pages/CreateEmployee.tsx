@@ -3,7 +3,7 @@ import DatePicker from 'react-datepicker';
 import Select from 'react-select';
 import { useDispatch } from 'react-redux';
 import { addEmployee } from '../store/employeesSlice';
-import Modal from 'hrnet-react-modal';
+import Modal from 'hrnet-modal-react';
 import "react-datepicker/dist/react-datepicker.css";
 
 const departments = [
